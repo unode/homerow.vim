@@ -75,8 +75,8 @@ function homerow#JKLsemiWrapLine()
 endfunction
 
 function homerow#JKLsemiQuickStartEnd()
-    map K $
-    map L ^
+    map K ^
+    map L $
 endfunction
 "" }}}
 "" homerow#Default - default hjkl movement {{{

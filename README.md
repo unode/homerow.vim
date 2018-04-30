@@ -19,7 +19,7 @@ Functions to remap vim's movement keys to something other than `hjkl`.
 - WindowAltTerm() - Affects window movement keys using `<Alt>` in terminal mode: `<A-h> ; <A-j> ...`
 - Line() - Affects visual line movement keys: `gh ; gj ...`
 - WrapLine() - Affects wrapped line movement: `k -> gk ; j -> gj`
-- QuickStartEnd() - Affects UP/DOWN for quick start/end of line movement: `K -> $ ; L -> ^``
+- QuickStartEnd() - Affects UP/DOWN for quick start/end of line movement: `K -> ^ ; L -> $``
 
 # Usage
 
