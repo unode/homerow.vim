@@ -220,6 +220,21 @@ endfunction
 function homerow#UnsetQuickStartEnd()
     silent! unmap K
     silent! unmap L
+    silent! unmap H
+endfunction
+"" }}}
+
+"" homerow#Mini - Minimal settings in addition to defaults {{{
+function homerow#MiniWrapLine()
+    nnoremap k gk
+    nnoremap j gj
+    nnoremap gk k
+    nnoremap gj j
+endfunction
+
+function homerow#MiniQuickStartEnd()
+    map H ^
+    map L $
 endfunction
 "" }}}
 
