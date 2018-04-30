@@ -9,6 +9,7 @@ Functions to remap vim's movement keys to something other than `hjkl`.
 - `←↓↑→` as vim's built-in - `homerow#Unset*`
 - Disable directional `←↓↑→` keys - `homerow#NoArrows`
 - Disable directional `hjkl` keys - `homerow#NoHJKL`
+- Minimal bindings on `HL` and `jk` - `homerow#Mini` (only WrapLine and QuickStartEnd)
 
 `*` represents one of the following suffixes:
 
